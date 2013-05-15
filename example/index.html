@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>K9</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+    <script type="text/javascript" src="js/k9.js"></script>
+    <script>
+        $(document).ready(function(){
+            var options = {
+                mobile : 2,
+                landmobile : 3,
+                tablet : 5,
+                normal : 4,
+                extra : 5,
+                marginVertical : 10,
+                marginHorizontal : 10,
+            };
+
+            $('#gallery').k9(options);
+        });
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <section id="gallery">
+            <img class="photo" alt="" src="img/example.jpg">
+            <img class="photo" alt="" src="img/example.jpg">
+            <img class="photo" alt="" src="img/example.jpg">
+            <img class="photo" alt="" src="img/example.jpg">
+            <img class="photo" alt="" src="img/example.jpg">
+            <img class="photo" alt="" src="img/example.jpg">
+            <img class="photo" alt="" src="img/example.jpg">
+            <img class="photo" alt="" src="img/example.jpg">
+        </section>
+    </div>
+</body>
+</html>
